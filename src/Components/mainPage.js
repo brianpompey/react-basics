@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Button from './button';
+import './mainPage.css'
 
 
 class MainPage extends Component {
