@@ -3,8 +3,8 @@ import './button.css'
 
 const Button = (props) => {
     return(
-        <button>
-            PRESS ME Please
+        <button className="button">
+            PRESS ME
         </button>
     )
 }
