@@ -6,10 +6,17 @@ import './mainPage.css'
 class MainPage extends Component {
     render() {
         return(
-            <div className="buttonGroup">
-                <Button buttonName="Up"/>
-                <Button buttonName="Down"/>
-                <Button buttonName="Reset"/>
+            <div className="main">
+                <div class="count">
+                    
+                </div>
+
+            
+                <div className="buttonGroup">
+                    <Button buttonName="Up"/>
+                    <Button buttonName="Down"/>
+                    <Button buttonName="Reset"/>
+                </div>
             </div>
         )
     }
