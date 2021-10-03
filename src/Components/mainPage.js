@@ -23,7 +23,7 @@ class MainPage extends Component {
 
             
                 <div className="buttonGroup">
-                    <Button buttonName="Up"/>
+                    <Button buttonName="Up" />
                     <Button buttonName="Down"/>
                     <Button buttonName="Reset"/>
                 </div>
