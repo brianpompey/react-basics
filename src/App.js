@@ -1,8 +1,9 @@
 import './App.css';
+import Button from './Components/button';
 
 function App() {
   return (
-    <h1>Hello WOrld</h1>
+    <Button />
   );
 }
 
