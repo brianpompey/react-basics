@@ -12,7 +12,31 @@ class MainPage extends Component {
         this.state = {
             ...initialState
         }
+        this.upCount = this.upCount.bind(this);
+        this.downCount = this.downCount.bind(this);
+        this.resetCount = this.resetCount.bind(this);
     }
+
+    upCount = () => {
+        this.setState({
+            count: this.state.count + 1
+        });
+    };
+
+    downCount = () => {
+        this.setState({
+            count: this.state.count - 1
+        });
+    };
+
+    resetCount = () => {
+        this.setState({
+            count: 0
+        });
+    };
+    
+    
+
 
     render() {
         return(
@@ -23,9 +47,9 @@ class MainPage extends Component {
 
             
                 <div className="buttonGroup">
-                    <Button buttonName="Up" />
-                    <Button buttonName="Down"/>
-                    <Button buttonName="Reset"/>
+                    <Button buttonName="Up" methodName={this.upCount}/>
+                    <Button buttonName="Down" methodName={this.downCount}/>
+                    <Button buttonName="Reset" methodName={this.resetCount}/>
                 </div>
             </div>
         )
