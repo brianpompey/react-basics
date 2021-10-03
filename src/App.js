@@ -7,9 +7,9 @@ function App() {
     <div>
       Welcome to the Counter
     </div>
-    <Button />
-    <Button />
-    <Button />
+    <Button buttonName="Press Me"/>
+    <Button buttonName="Press Me"/>
+    <Button buttonName="Press Me"/>
     </>
   );
 }

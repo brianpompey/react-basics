@@ -4,7 +4,7 @@ import './button.css'
 const Button = (props) => {
     return(
         <button className="button">
-            PRESS ME
+            {props.buttonName}
         </button>
     )
 }
