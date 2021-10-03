@@ -8,6 +8,8 @@ function App() {
       Welcome to the Counter
     </div>
     <Button />
+    <Button />
+    <Button />
     </>
   );
 }
