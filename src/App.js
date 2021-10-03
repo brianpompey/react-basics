@@ -1,5 +1,5 @@
 import './App.css';
-import Button from './Components/button';
+import MainPage from './Components/mainPage';
 
 function App() {
   return (
@@ -7,11 +7,7 @@ function App() {
     <div>
       Welcome to the Counter
     </div>
-    <div className="buttonGroup">
-      <Button buttonName="Up"/>
-      <Button buttonName="Down"/>
-      <Button buttonName="Reset"/>
-    </div>
+    <MainPage />
     </>
   );
 }
