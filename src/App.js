@@ -7,9 +7,11 @@ function App() {
     <div>
       Welcome to the Counter
     </div>
-    <Button buttonName="Up"/>
-    <Button buttonName="Down"/>
-    <Button buttonName="Reset"/>
+    <div className="buttonGroup">
+      <Button buttonName="Up"/>
+      <Button buttonName="Down"/>
+      <Button buttonName="Reset"/>
+    </div>
     </>
   );
 }
